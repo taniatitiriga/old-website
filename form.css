@@ -1,0 +1,139 @@
+.blog-title {
+    opacity: 0;
+    color: #b4fed3;
+    animation: fadeIn 0.7s ease-in-out forwards;
+}
+
+
+/*----------------------NAV BAR----------------------*/
+
+nav {
+    background-color: #6934cd;
+    padding: 8px;
+    margin-bottom: 2%;
+    animation: fadeIn 0.7s ease-in-out forwards;
+}
+
+/*tools for a (nav buttons)*/
+.toola {
+    color: #e4c1f9;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.7s ease, color 0.7s ease;
+}
+
+.toola:hover {
+    background-color: #350980;
+    color: #fa99f4;
+}
+
+
+/*----------------------CONTENT----------------------*/
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #0a080a;
+}
+
+.container {
+    align-items: left;
+    /* display: flex;
+    justify-content: center; */
+    background-color: #19141a;
+    color: #ff3ea5;
+    border: 2px solid #2d262e;
+    padding: 15px;
+}
+
+.formtool {
+    animation: fadeIn 0.7s ease-in-out forwards;
+}
+
+input[type=text], input[type=name], input[type=email], input[type=date], select, textarea {
+    /* width: 70%; */
+    padding: 5px 5px;
+    margin: 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+    background-color: #463940;
+    color: white;
+}
+
+
+input[type=checkbox], input[type=radio]{
+    accent-color: #ff46e3; 
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #463940;
+    color: white;
+    font-family: 'Courier New', monospace;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #570091;
+}
+
+label {
+    color: white;
+}
+
+
+
+/*----------------------FOOTER----------------------*/
+
+footer {
+    background-color: #db2acc;
+    color: white;
+    padding: 10px;
+    margin-top: 2%;
+    animation: fadeIn 0.7s ease-in-out forwards;
+}
+
+
+/*----------------------ANIMATIONS----------------------*/
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Styles for large screens */
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 960px;
+        margin: 0 auto;
+    }
+}
+
+/* Styles for medium screens */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+/* Styles for small screens */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}

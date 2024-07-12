@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tania Titiriga's IT Blog - form</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 align="center" class="blog-title">Welcome to ITania's Blog</h1>
+        <nav>
+            <a href="index.html" class="toola">Home</a>
+            <a href="about.html" class="toola">About</a>
+            <a href="form.html" class="toola">Form</a>
+            <a href="chatbot.html" class="toola">Chat</a>
+        </nav>
+    </header>
+    <div class="container">
+        <form align="center" class="formtool">
+            <p>
+                <label>Greetings,
+                    <select name="salutation">
+                        <option>--None--</option>
+                        <option>Mr.</option>
+                        <option>Ms.</option>
+                        <option>Mrs.</option>
+                        <option>Dr.</option>
+                        <option>Prof.</option>
+                    </select>
+                </label>
+            </p>
+            <p> <label>First name: <input type="name" name="firstName" /></label></p>
+            <p><label>Last name: <input type="name" name="lastName" /></label></p>
+            <p style="color:white">Gender:
+                <label><input type="radio" name="gender" value="male" />Male</label>
+                <label><input type="radio" name="gender" value="female" />Female</label>
+            </p>
+            <p style="color:white">Interests:
+                <label><input type="checkbox" name="interest" value="it" />IT</label>
+                <label><input type="checkbox" name="interest" value="ctf" />CTFs</label>
+                <label><input type="checkbox" name="interest" value="art" />Art</label>
+            </p>
+            <p><label>Email:<input type="email" name="email" /></label></p>
+            <p><label>Date of Birth:<input type="date" name="birthDate"></label></p>
+            <p><label>Address: <textarea name="address" cols="30" rows="3"> </textarea>
+                </label></p>
+            <p><input type="submit" value="Submit"></p>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ITania's Blog</p>
+    </footer>
+</body>
+
+</html>
