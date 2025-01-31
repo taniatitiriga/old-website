@@ -1,2 +1,3 @@
 # old-website
-This is my former website, created for my Web Design course. At the end of the course I wished to redesign my website from scratch, so this serves as an archive for how it used to look like.
+Former blog project created for Web Design course.
+Upon completing the course I redesigned my blog from scratch using React, check it out here: https://taniatitiriga.github.io/
